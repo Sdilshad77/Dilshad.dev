@@ -10,37 +10,20 @@ export interface Experience {
 
 export const experiences: Experience[] = [
   {
-    company: '[Company Name]',
-    role: 'MERN Stack Developer',
-    duration: '[Start Date - End Date]',
-    location: '[Location]',
+    company: 'Eskills Web',
+    role: 'MERN Stack Developer Intern',
+    duration: '[Start Month Year] - [End Month Year]',
+    location: 'Old Palasia, Indore, Madhya Pradesh',
     summary:
-      'Developed and maintained full-stack web applications across the MERN stack, shipping features from design to deployment.',
+      'Completed a MERN stack development internship at Eskills Web, Indore — building and shipping features across the full stack, from responsive React interfaces to Express APIs and MongoDB data models.',
     responsibilities: [
       'Developed responsive web applications',
-      'Built REST APIs',
-      'Worked with MongoDB',
-      'Implemented authentication',
+      'Built REST APIs with Node.js and Express',
+      'Worked with MongoDB and Mongoose',
+      'Implemented authentication and authorization',
       'Improved application performance',
       'Collaborated on frontend and backend development',
     ],
-    tech: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Tailwind CSS'],
-  },
-  {
-    company: '[Company Name]',
-    role: '[MERN Stack Developer]',
-    duration: '[Start Date - End Date]',
-    location: '[Location]',
-    summary:
-      'Built and shipped production features — from UI components to database models and API endpoints.',
-    responsibilities: [
-      'Developed responsive web applications',
-      'Built REST APIs',
-      'Worked with MongoDB',
-      'Implemented authentication',
-      'Improved application performance',
-      'Collaborated on frontend and backend development',
-    ],
-    tech: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'TypeScript'],
+    tech: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Mongoose', 'Tailwind CSS'],
   },
 ]
