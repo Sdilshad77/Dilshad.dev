@@ -6,6 +6,7 @@ const projects = [
   { slug: 'indore-bazar', url: 'https://indore-bazar-1.vercel.app/', wait: 5500 },
   { slug: 'kaamkaro', url: 'https://kaam-karo-wri3.vercel.app/', wait: 5500 },
   { slug: 'gymhub', url: 'https://find-gym-theta.vercel.app/', wait: 5500 },
+  { slug: 'skinlova', url: 'https://skin-lova.vercel.app/', wait: 5500 },
 ]
 
 mkdirSync('public/projects', { recursive: true })

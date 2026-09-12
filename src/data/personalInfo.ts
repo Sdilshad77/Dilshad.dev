@@ -6,7 +6,7 @@ export const personalInfo = {
   availability: 'Available for Freelance / Full-Time Opportunities',
   bio: 'I am a Full Stack MERN Developer with a strong focus on the MERN ecosystem — building real-world web applications end-to-end. I design and develop clean, maintainable code, craft responsive interfaces, build REST APIs, implement secure authentication, model efficient database schemas and aggressively optimize performance. From a pixel-perfect React frontend to a robust Node.js + MongoDB backend, I care about the complete product.',
   stats: [
-    { value: 4, suffix: '+', label: 'Real-World Projects' },
+    { value: 5, suffix: '+', label: 'Real-World Projects' },
     { value: 4, suffix: '', label: 'MERN Stack Developer' },
     { value: 15, suffix: '+', label: 'Technologies' },
     { value: 100, suffix: '%', label: 'Available for Opportunities' },

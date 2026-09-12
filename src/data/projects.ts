@@ -18,6 +18,29 @@ export const projectFilters = ['All', 'Full Stack', 'MERN', 'E-Commerce', 'Marke
 
 export const projects: Project[] = [
   {
+    id: 'skinlova',
+    title: 'SkinLova',
+    category: 'AI Beauty',
+    tags: ['AI', 'Beauty', 'Full Stack', 'MERN', 'React'],
+    description:
+      'SkinLova is an AI-powered skincare and beauty platform that provides skin analysis and personalized product recommendations, helping users understand their skin and build a routine tailored to them.',
+    features: [
+      'AI-powered skincare analysis',
+      'Personalized beauty product recommendations',
+      'Skin-focused product catalog',
+      'Routine-building experience',
+      'Responsive beauty-first interface',
+    ],
+    challenges:
+      'Pairing an AI-driven experience with a premium, calming aesthetic — making complex analysis feel effortless, personal and trustworthy for the user.',
+    technologies: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Tailwind CSS'],
+    liveUrl: 'https://skin-lova.vercel.app/',
+    githubUrl: 'https://github.com/Sdilshad77/SkinLova',
+    image: '/projects/skinlova.jpg',
+    gradient: 'linear-gradient(135deg, rgba(244,114,182,0.25), rgba(8,10,24,0.9))',
+    accent: '#f472b6',
+  },
+  {
     id: 'tradehub',
     title: 'TradeHub',
     category: 'Marketplace',
